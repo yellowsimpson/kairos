@@ -6,9 +6,16 @@ import os
 
 # 이미지 증강 함수
 def augment_image(img, save_path, index):
-    # 1. 회전 (Random Rotation)
-    img = img.rotate(random.randint(-30, 30))
-    
+    # 1. 회전 (Random Rotation) 및 배경을 흰색으로 설정
+    angle = random.randint(-30, 30)
+    img = img.convert("RGBA")  # 투명한 배경을 허용하기 위해 RGBA로 변환
+    rotated_img = img.rotate(angle, expand=True)
+
+    # 회전 후 투명한 부분을 흰색으로 채우기
+    background = Image.new("RGBA", rotated_img.size, (255, 255, 255, 255))  # 흰색 배경
+    img = Image.alpha_composite(background, rotated_img)  # 투명 배경을 흰색으로 합성
+    img = img.convert("RGB")  # JPEG 형식 저장을 위해 다시 RGB로 변환
+
     # 2. 좌우 및 상하 뒤집기 (Random Flip)
     if random.choice([True, False]):
         img = ImageOps.mirror(img)  # 좌우 뒤집기
@@ -39,7 +46,7 @@ def augment_image(img, save_path, index):
     img = img.effect_spread(random.randint(1, 5))  # 노이즈 추가
 
     # 저장
-    img.save(os.path.join(save_path, f"red_{index}.jpg"))
+    img.save(os.path.join(save_path, f"red_{index}.jpg"))  
 
 # 이미지 증강을 위한 메인 함수
 def generate_augmented_images(image_path, save_path, num_images):
@@ -58,6 +65,6 @@ def generate_augmented_images(image_path, save_path, num_images):
 # 사용 예시
 image_path = "red_original.jpg"  # 원본 이미지 경로
 save_path = "red"  # 증강된 이미지 저장 경로
-num_images = 500  # 생성할 이미지 수
+num_images = 1000  # 생성할 이미지 수
 
 generate_augmented_images(image_path, save_path, num_images)
