@@ -1,0 +1,4 @@
+﻿  SFML.cpp
+C:\Users\shims\source\repos\SFML\SFML\SFML.cpp(46,35): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\shims\source\repos\SFML\SFML\SFML.cpp(96,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  SFML.vcxproj -> C:\Users\shims\source\repos\SFML\SFML\x64\Debug\SFML.exe

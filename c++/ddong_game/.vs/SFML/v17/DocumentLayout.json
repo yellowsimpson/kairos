@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shims\\source\\repos\\SFML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{674A7052-2FAF-4EDE-8274-D7702DF41A4B}|SFML\\SFML.vcxproj|C:\\Users\\shims\\source\\repos\\SFML\\SFML\\SFML.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{674A7052-2FAF-4EDE-8274-D7702DF41A4B}|SFML\\SFML.vcxproj|solutionrelative:SFML\\SFML.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{674A7052-2FAF-4EDE-8274-D7702DF41A4B}|SFML\\SFML.vcxproj|C:\\SFML-2.6.1\\INCLUDE\\SFML\\GRAPHICS\\GLYPH.HPP||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Glyph.hpp",
+              "DocumentMoniker": "C:\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "ToolTip": "C:\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\SFML-2.6.1\\include\\SFML\\Graphics\\Glyph.hpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwEUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-19T07:25:27.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SFML.cpp",
+              "DocumentMoniker": "C:\\Users\\shims\\source\\repos\\SFML\\SFML\\SFML.cpp",
+              "RelativeDocumentMoniker": "SFML\\SFML.cpp",
+              "ToolTip": "C:\\Users\\shims\\source\\repos\\SFML\\SFML\\SFML.cpp",
+              "RelativeToolTip": "SFML\\SFML.cpp",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwGkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-19T06:02:08.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
