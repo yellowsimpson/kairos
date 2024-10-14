@@ -1,0 +1,43 @@
+[2.635s] Invoking command in '/home/simpson/launch_ws/src/jdamr_ros_03': PYTHONPATH=/home/simpson/launch_ws/build/jdamr_ros_03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jdamr_ros_03 build --build-base /home/simpson/launch_ws/build/jdamr_ros_03/build install --record /home/simpson/launch_ws/build/jdamr_ros_03/install.log --single-version-externally-managed install_data
+[2.995s] running egg_info
+[2.995s] creating ../../build/jdamr_ros_03/jdamr_ros_03.egg-info
+[2.997s] writing ../../build/jdamr_ros_03/jdamr_ros_03.egg-info/PKG-INFO
+[2.998s] writing dependency_links to ../../build/jdamr_ros_03/jdamr_ros_03.egg-info/dependency_links.txt
+[2.999s] writing entry points to ../../build/jdamr_ros_03/jdamr_ros_03.egg-info/entry_points.txt
+[2.999s] writing requirements to ../../build/jdamr_ros_03/jdamr_ros_03.egg-info/requires.txt
+[3.000s] writing top-level names to ../../build/jdamr_ros_03/jdamr_ros_03.egg-info/top_level.txt
+[3.009s] writing manifest file '../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'
+[3.080s] reading manifest file '../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'
+[3.081s] writing manifest file '../../build/jdamr_ros_03/jdamr_ros_03.egg-info/SOURCES.txt'
+[3.081s] running build
+[3.081s] running build_py
+[3.082s] creating /home/simpson/launch_ws/build/jdamr_ros_03/build
+[3.082s] creating /home/simpson/launch_ws/build/jdamr_ros_03/build/lib
+[3.082s] creating /home/simpson/launch_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03
+[3.082s] copying jdamr_ros_03/jdamr_ros_03.py -> /home/simpson/launch_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03
+[3.082s] copying jdamr_ros_03/__init__.py -> /home/simpson/launch_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03
+[3.083s] running install
+[3.084s] running install_lib
+[3.086s] creating /home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages/jdamr_ros_03
+[3.086s] copying /home/simpson/launch_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03/jdamr_ros_03.py -> /home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages/jdamr_ros_03
+[3.086s] copying /home/simpson/launch_ws/build/jdamr_ros_03/build/lib/jdamr_ros_03/__init__.py -> /home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages/jdamr_ros_03
+[3.087s] byte-compiling /home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages/jdamr_ros_03/jdamr_ros_03.py to jdamr_ros_03.cpython-38.pyc
+[3.090s] byte-compiling /home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages/jdamr_ros_03/__init__.py to __init__.cpython-38.pyc
+[3.090s] running install_data
+[3.090s] creating /home/simpson/launch_ws/install/jdamr_ros_03/share/ament_index
+[3.091s] creating /home/simpson/launch_ws/install/jdamr_ros_03/share/ament_index/resource_index
+[3.091s] creating /home/simpson/launch_ws/install/jdamr_ros_03/share/ament_index/resource_index/packages
+[3.091s] copying resource/jdamr_ros_03 -> /home/simpson/launch_ws/install/jdamr_ros_03/share/ament_index/resource_index/packages
+[3.091s] copying package.xml -> /home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03
+[3.091s] creating /home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/launch
+[3.092s] copying launch/jdamr_launch.py -> /home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/launch
+[3.092s] creating /home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/urdf
+[3.092s] copying urdf/jdamr.urdf -> /home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/urdf
+[3.092s] creating /home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/rviz
+[3.093s] copying rviz/jdamr_rviz.rviz -> /home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/rviz
+[3.093s] running install_egg_info
+[3.096s] Copying ../../build/jdamr_ros_03/jdamr_ros_03.egg-info to /home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages/jdamr_ros_03-0.0.0-py3.8.egg-info
+[3.098s] running install_scripts
+[3.155s] Installing jdamr_03 script to /home/simpson/launch_ws/install/jdamr_ros_03/lib/jdamr_ros_03
+[3.155s] writing list of installed files to '/home/simpson/launch_ws/build/jdamr_ros_03/install.log'
+[3.245s] Invoked command in '/home/simpson/launch_ws/src/jdamr_ros_03' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/jdamr_ros_03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jdamr_ros_03 build --build-base /home/simpson/launch_ws/build/jdamr_ros_03/build install --record /home/simpson/launch_ws/build/jdamr_ros_03/install.log --single-version-externally-managed install_data

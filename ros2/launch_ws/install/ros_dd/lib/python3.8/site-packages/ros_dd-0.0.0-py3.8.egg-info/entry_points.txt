@@ -1,0 +1,4 @@
+[console_scripts]
+arduino_commander = ros_dd.arduino_commander:main
+wheel_controller = ros_dd.wheel_controller:main
+

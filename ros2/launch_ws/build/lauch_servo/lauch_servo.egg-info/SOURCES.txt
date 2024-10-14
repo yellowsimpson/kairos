@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/lauch_servo/lauch_servo.egg-info/PKG-INFO
+../../build/lauch_servo/lauch_servo.egg-info/SOURCES.txt
+../../build/lauch_servo/lauch_servo.egg-info/dependency_links.txt
+../../build/lauch_servo/lauch_servo.egg-info/entry_points.txt
+../../build/lauch_servo/lauch_servo.egg-info/requires.txt
+../../build/lauch_servo/lauch_servo.egg-info/top_level.txt
+../../build/lauch_servo/lauch_servo.egg-info/zip-safe
+lauch_servo/__init__.py
+lauch_servo/lauch_servo.py
+resource/lauch_servo
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

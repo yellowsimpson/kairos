@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<robot name="jdamr">
+    <!-- 로봇의 본체 -->
+    <link name="body_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0"/> <!-- rpy: roll pitch yaw origin: origin point-->
+            <geometry>
+                <box size="1 0.6 0.3"/>  <!-- 박스 크기 -->
+            </geometry>
+            <material name="red">
+                <color rgba="1 0 0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- 첫 번째 바퀴 (왼쪽 앞) -->
+    <joint name="wheel1_joint" type="continuous">
+        <parent link="body_link"/>
+        <child link="wheel1_link"/>
+        <origin xyz="-0.3 -0.35 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheel1_link">
+        <visual>
+            <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+            <geometry>
+                <cylinder length="0.1" radius="0.15"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="1 1 0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- 두 번째 바퀴 (오른쪽 앞) -->
+    <joint name="wheel2_joint" type="continuous">
+        <parent link="body_link"/>
+        <child link="wheel2_link"/>
+        <origin xyz="0.3 -0.35 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheel2_link">
+        <visual>
+            <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+            <geometry>
+                <cylinder length="0.1" radius="0.15"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="1 1 0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- 세 번째 바퀴 (왼쪽 뒤) -->
+    <joint name="wheel3_joint" type="continuous">
+        <parent link="body_link"/>
+        <child link="wheel3_link"/>
+        <origin xyz="-0.3 0.35 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheel3_link">
+        <visual>
+            <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+            <geometry>
+                <cylinder length="0.1" radius="0.15"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="1 1 0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- 네 번째 바퀴 (오른쪽 뒤) -->
+    <joint name="wheel4_joint" type="continuous">
+        <parent link="body_link"/>
+        <child link="wheel4_link"/>
+        <origin xyz="0.3 0.35 -0.1" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+    <link name="wheel4_link">
+        <visual>
+            <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+            <geometry>
+                <cylinder length="0.1" radius="0.15"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="1 1 0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- 첫 번째 바퀴의 transmission -->
+    <transmission name="wheel1_transmission">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="wheel1_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="wheel1_motor">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </actuator>
+    </transmission>
+
+    <!-- 두 번째 바퀴의 transmission -->
+    <transmission name="wheel2_transmission">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="wheel2_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="wheel2_motor">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </actuator>
+    </transmission>
+
+    <!-- 세 번째 바퀴의 transmission -->
+    <transmission name="wheel3_transmission">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="wheel3_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="wheel3_motor">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </actuator>
+    </transmission>
+
+    <!-- 네 번째 바퀴의 transmission -->
+    <transmission name="wheel4_transmission">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="wheel4_joint">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="wheel4_motor">
+            <hardwareInterface>hardware_interface/VelocityJointInterface</hardwareInterface>
+        </actuator>
+    </transmission>
+</robot>

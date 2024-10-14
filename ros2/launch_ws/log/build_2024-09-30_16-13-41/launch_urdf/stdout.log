@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/launch_urdf/launch_urdf.egg-info
+writing ../../build/launch_urdf/launch_urdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_urdf/launch_urdf.egg-info/dependency_links.txt
+writing entry points to ../../build/launch_urdf/launch_urdf.egg-info/entry_points.txt
+writing requirements to ../../build/launch_urdf/launch_urdf.egg-info/requires.txt
+writing top-level names to ../../build/launch_urdf/launch_urdf.egg-info/top_level.txt
+writing manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+reading manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/simpson/launch_ws/build/launch_urdf/build
+creating /home/simpson/launch_ws/build/launch_urdf/build/lib
+creating /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf
+copying launch_urdf/urdf_launch.py -> /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf
+copying launch_urdf/__init__.py -> /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf
+running install
+running install_lib
+creating /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf
+copying /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf/urdf_launch.py -> /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf
+copying /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf/__init__.py -> /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf
+byte-compiling /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf/urdf_launch.py to urdf_launch.cpython-38.pyc
+byte-compiling /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/simpson/launch_ws/install/launch_urdf/share/ament_index
+creating /home/simpson/launch_ws/install/launch_urdf/share/ament_index/resource_index
+creating /home/simpson/launch_ws/install/launch_urdf/share/ament_index/resource_index/packages
+copying resource/launch_urdf -> /home/simpson/launch_ws/install/launch_urdf/share/ament_index/resource_index/packages
+copying package.xml -> /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf
+creating /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/launch
+copying launch/urdf_launch.py -> /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/launch
+creating /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/urdf
+copying urdf/testbot.urdf -> /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/urdf
+creating /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/rviz
+running install_egg_info
+Copying ../../build/launch_urdf/launch_urdf.egg-info to /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf-0.0.0-py3.8.egg-info
+running install_scripts
+Installing launch script to /home/simpson/launch_ws/install/launch_urdf/lib/launch_urdf
+writing list of installed files to '/home/simpson/launch_ws/build/launch_urdf/install.log'

@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: ros-dd
+Version: 0.0.0
+Summary: URDF를 RViz에서 시각화하고 teleop을 통해 바퀴를 제어하는 패키지입니다.
+Home-page: UNKNOWN
+Maintainer: jhchoman
+Maintainer-email: jhchoman@example.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

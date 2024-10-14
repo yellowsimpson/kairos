@@ -1,0 +1,42 @@
+[2.634s] Invoking command in '/home/simpson/launch_ws/src/launch_urdf': PYTHONPATH=/home/simpson/launch_ws/build/launch_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_urdf build --build-base /home/simpson/launch_ws/build/launch_urdf/build install --record /home/simpson/launch_ws/build/launch_urdf/install.log --install-scripts $base/lib/launch_urdf --single-version-externally-managed install_data
+[2.999s] running egg_info
+[3.000s] creating ../../build/launch_urdf/launch_urdf.egg-info
+[3.001s] writing ../../build/launch_urdf/launch_urdf.egg-info/PKG-INFO
+[3.002s] writing dependency_links to ../../build/launch_urdf/launch_urdf.egg-info/dependency_links.txt
+[3.002s] writing entry points to ../../build/launch_urdf/launch_urdf.egg-info/entry_points.txt
+[3.003s] writing requirements to ../../build/launch_urdf/launch_urdf.egg-info/requires.txt
+[3.004s] writing top-level names to ../../build/launch_urdf/launch_urdf.egg-info/top_level.txt
+[3.010s] writing manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+[3.085s] reading manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+[3.086s] writing manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+[3.086s] running build
+[3.086s] running build_py
+[3.087s] creating /home/simpson/launch_ws/build/launch_urdf/build
+[3.087s] creating /home/simpson/launch_ws/build/launch_urdf/build/lib
+[3.087s] creating /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf
+[3.087s] copying launch_urdf/urdf_launch.py -> /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf
+[3.087s] copying launch_urdf/__init__.py -> /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf
+[3.088s] running install
+[3.090s] running install_lib
+[3.091s] creating /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf
+[3.091s] copying /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf/urdf_launch.py -> /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf
+[3.092s] copying /home/simpson/launch_ws/build/launch_urdf/build/lib/launch_urdf/__init__.py -> /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf
+[3.093s] byte-compiling /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf/urdf_launch.py to urdf_launch.cpython-38.pyc
+[3.096s] byte-compiling /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf/__init__.py to __init__.cpython-38.pyc
+[3.097s] running install_data
+[3.097s] creating /home/simpson/launch_ws/install/launch_urdf/share/ament_index
+[3.097s] creating /home/simpson/launch_ws/install/launch_urdf/share/ament_index/resource_index
+[3.098s] creating /home/simpson/launch_ws/install/launch_urdf/share/ament_index/resource_index/packages
+[3.098s] copying resource/launch_urdf -> /home/simpson/launch_ws/install/launch_urdf/share/ament_index/resource_index/packages
+[3.098s] copying package.xml -> /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf
+[3.098s] creating /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/launch
+[3.099s] copying launch/urdf_launch.py -> /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/launch
+[3.099s] creating /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/urdf
+[3.099s] copying urdf/testbot.urdf -> /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/urdf
+[3.112s] creating /home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/rviz
+[3.112s] running install_egg_info
+[3.112s] Copying ../../build/launch_urdf/launch_urdf.egg-info to /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf-0.0.0-py3.8.egg-info
+[3.113s] running install_scripts
+[3.155s] Installing launch script to /home/simpson/launch_ws/install/launch_urdf/lib/launch_urdf
+[3.156s] writing list of installed files to '/home/simpson/launch_ws/build/launch_urdf/install.log'
+[3.318s] Invoked command in '/home/simpson/launch_ws/src/launch_urdf' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/launch_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_urdf build --build-base /home/simpson/launch_ws/build/launch_urdf/build install --record /home/simpson/launch_ws/build/launch_urdf/install.log --install-scripts $base/lib/launch_urdf --single-version-externally-managed install_data

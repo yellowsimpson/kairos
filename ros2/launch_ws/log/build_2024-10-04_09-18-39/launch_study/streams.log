@@ -1,0 +1,21 @@
+[2.649s] Invoking command in '/home/simpson/launch_ws/src/launch_study': PYTHONPATH=/home/simpson/launch_ws/build/launch_study/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_study/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_study build --build-base /home/simpson/launch_ws/build/launch_study/build install --record /home/simpson/launch_ws/build/launch_study/install.log --install-scripts $base/lib/launch_study --single-version-externally-managed install_data
+[3.051s] running egg_info
+[3.053s] writing ../../build/launch_study/launch_study.egg-info/PKG-INFO
+[3.053s] writing dependency_links to ../../build/launch_study/launch_study.egg-info/dependency_links.txt
+[3.053s] writing entry points to ../../build/launch_study/launch_study.egg-info/entry_points.txt
+[3.053s] writing requirements to ../../build/launch_study/launch_study.egg-info/requires.txt
+[3.053s] writing top-level names to ../../build/launch_study/launch_study.egg-info/top_level.txt
+[3.119s] reading manifest file '../../build/launch_study/launch_study.egg-info/SOURCES.txt'
+[3.137s] writing manifest file '../../build/launch_study/launch_study.egg-info/SOURCES.txt'
+[3.137s] running build
+[3.138s] running build_py
+[3.138s] running install
+[3.138s] running install_lib
+[3.138s] running install_data
+[3.138s] running install_egg_info
+[3.138s] removing '/home/simpson/launch_ws/install/launch_study/lib/python3.8/site-packages/launch_study-0.0.0-py3.8.egg-info' (and everything under it)
+[3.138s] Copying ../../build/launch_study/launch_study.egg-info to /home/simpson/launch_ws/install/launch_study/lib/python3.8/site-packages/launch_study-0.0.0-py3.8.egg-info
+[3.139s] running install_scripts
+[3.163s] Installing launch_study script to /home/simpson/launch_ws/install/launch_study/lib/launch_study
+[3.163s] writing list of installed files to '/home/simpson/launch_ws/build/launch_study/install.log'
+[3.219s] Invoked command in '/home/simpson/launch_ws/src/launch_study' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/launch_study/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_study/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_study build --build-base /home/simpson/launch_ws/build/launch_study/build install --record /home/simpson/launch_ws/build/launch_study/install.log --install-scripts $base/lib/launch_study --single-version-externally-managed install_data

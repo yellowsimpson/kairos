@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ros_good/ros_good.egg-info
+writing ../../build/ros_good/ros_good.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_good/ros_good.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_good/ros_good.egg-info/entry_points.txt
+writing requirements to ../../build/ros_good/ros_good.egg-info/requires.txt
+writing top-level names to ../../build/ros_good/ros_good.egg-info/top_level.txt
+writing manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/simpson/launch_ws/build/ros_good/build
+creating /home/simpson/launch_ws/build/ros_good/build/lib
+creating /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+copying ros_good/__init__.py -> /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+copying ros_good/cam_ser.py -> /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+copying ros_good/cam_cli.py -> /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+running install
+running install_lib
+creating /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+copying /home/simpson/launch_ws/build/ros_good/build/lib/ros_good/__init__.py -> /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+copying /home/simpson/launch_ws/build/ros_good/build/lib/ros_good/cam_ser.py -> /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+copying /home/simpson/launch_ws/build/ros_good/build/lib/ros_good/cam_cli.py -> /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+byte-compiling /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good/cam_ser.py to cam_ser.cpython-38.pyc
+byte-compiling /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good/cam_cli.py to cam_cli.cpython-38.pyc
+running install_data
+creating /home/simpson/launch_ws/install/ros_good/share/ament_index
+creating /home/simpson/launch_ws/install/ros_good/share/ament_index/resource_index
+creating /home/simpson/launch_ws/install/ros_good/share/ament_index/resource_index/packages
+copying resource/ros_good -> /home/simpson/launch_ws/install/ros_good/share/ament_index/resource_index/packages
+copying package.xml -> /home/simpson/launch_ws/install/ros_good/share/ros_good
+running install_egg_info
+Copying ../../build/ros_good/ros_good.egg-info to /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cam_cli script to /home/simpson/launch_ws/install/ros_good/lib/ros_good
+Installing cam_ser script to /home/simpson/launch_ws/install/ros_good/lib/ros_good
+writing list of installed files to '/home/simpson/launch_ws/build/ros_good/install.log'

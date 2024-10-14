@@ -1,0 +1,554 @@
+[0.200s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.200s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f587c2f11c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f587c2f11c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f587c2f1610>)
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.330s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/simpson/launch_ws'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'ros'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extensions ['cmake', 'python']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'cmake'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'python'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extensions ['python_setup_py']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/System Volume Information) by extension 'python_setup_py'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/jdamr_ros_03_1) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jdamr_ros_03_1' with type 'ros.ament_python' and name 'jdamr_ros_03'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/lauch_servo) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lauch_servo' with type 'ros.ament_python' and name 'lauch_servo'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_study) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_study' with type 'ros.ament_python' and name 'launch_study'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_urdf) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_urdf' with type 'ros.ament_python' and name 'launch_urdf'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ardu) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ardu' with type 'ros.ament_python' and name 'ros_ardu'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_dd) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_good) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_good' with type 'ros.ament_python' and name 'ros_good'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_msg) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_msg' with type 'ros.ament_python' and name 'ros_msg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_wheel_controller) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_wheel_controller' with type 'ros.ament_python' and name 'ros_wheel_controller'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheel_controller) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheel_controller' with type 'ros.ament_python' and name 'wheel_controller'
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.373s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.375s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[0.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'jdamr_ros_03' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'jdamr_ros_03' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/jdamr_ros_03', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/jdamr_ros_03', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/jdamr_ros_03_1', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'lauch_servo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'lauch_servo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/lauch_servo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/lauch_servo', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/lauch_servo', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_study' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'launch_study' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/launch_study', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/launch_study', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/launch_study', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'launch_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'launch_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/launch_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/launch_urdf', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/launch_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'ros_ardu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'ros_ardu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/ros_ardu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/ros_ardu', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/ros_ardu', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_good' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'ros_good' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/ros_good', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/ros_good', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/ros_good', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'ros_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/ros_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/ros_msg', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/ros_msg', 'symlink_install': False, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'ros_wheel_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'ros_wheel_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/ros_wheel_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/ros_wheel_controller', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/ros_wheel_controller', 'symlink_install': False, 'test_result_base': None}
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'wheel_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'wheel_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/simpson/launch_ws/build/wheel_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/simpson/launch_ws/install/wheel_controller', 'merge_install': False, 'path': '/home/simpson/launch_ws/src/wheel_controller', 'symlink_install': False, 'test_result_base': None}
+[0.444s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.446s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/jdamr_ros_03_1' with build type 'ament_python'
+[0.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr_ros_03', 'ament_prefix_path')
+[0.448s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/hook/ament_prefix_path.ps1'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/hook/ament_prefix_path.dsv'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/hook/ament_prefix_path.sh'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/lauch_servo' with build type 'ament_python'
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('lauch_servo', 'ament_prefix_path')
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/hook/ament_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/hook/ament_prefix_path.dsv'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/hook/ament_prefix_path.sh'
+[0.464s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/launch_study' with build type 'ament_python'
+[0.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_study', 'ament_prefix_path')
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_study/share/launch_study/hook/ament_prefix_path.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/launch_study/share/launch_study/hook/ament_prefix_path.dsv'
+[0.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_study/share/launch_study/hook/ament_prefix_path.sh'
+[0.475s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.475s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/launch_urdf' with build type 'ament_python'
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_urdf', 'ament_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/hook/ament_prefix_path.ps1'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/hook/ament_prefix_path.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/hook/ament_prefix_path.sh'
+[0.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.513s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/ros_ardu' with build type 'ament_python'
+[0.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ardu', 'ament_prefix_path')
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/hook/ament_prefix_path.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/hook/ament_prefix_path.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/hook/ament_prefix_path.sh'
+[0.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.525s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/ros_good' with build type 'ament_python'
+[0.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_good', 'ament_prefix_path')
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_good/share/ros_good/hook/ament_prefix_path.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_good/share/ros_good/hook/ament_prefix_path.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_good/share/ros_good/hook/ament_prefix_path.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/ros_msg' with build type 'ament_python'
+[0.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_msg', 'ament_prefix_path')
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/hook/ament_prefix_path.ps1'
+[0.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/hook/ament_prefix_path.dsv'
+[0.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/hook/ament_prefix_path.sh'
+[0.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.546s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/ros_wheel_controller' with build type 'ament_python'
+[0.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_wheel_controller', 'ament_prefix_path')
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/hook/ament_prefix_path.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/hook/ament_prefix_path.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/hook/ament_prefix_path.sh'
+[0.549s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.549s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.805s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/jdamr_ros_03_1'
+[0.806s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.050s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/lauch_servo'
+[1.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.323s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/launch_study'
+[1.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.600s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/launch_urdf'
+[1.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.894s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/ros_ardu'
+[1.894s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.118s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/ros_good'
+[2.119s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.341s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/ros_msg'
+[2.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.562s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/ros_wheel_controller'
+[2.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/launch_study': PYTHONPATH=/home/simpson/launch_ws/build/launch_study/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_study/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_study build --build-base /home/simpson/launch_ws/build/launch_study/build install --record /home/simpson/launch_ws/build/launch_study/install.log --install-scripts $base/lib/launch_study --single-version-externally-managed install_data
+[3.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/ros_ardu': PYTHONPATH=/home/simpson/launch_ws/build/ros_ardu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_ardu build --build-base /home/simpson/launch_ws/build/ros_ardu/build install --record /home/simpson/launch_ws/build/ros_ardu/install.log --single-version-externally-managed install_data
+[3.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/jdamr_ros_03_1': PYTHONPATH=/home/simpson/launch_ws/build/jdamr_ros_03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jdamr_ros_03 build --build-base /home/simpson/launch_ws/build/jdamr_ros_03/build install --record /home/simpson/launch_ws/build/jdamr_ros_03/install.log --single-version-externally-managed install_data
+[3.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/ros_msg': PYTHONPATH=/home/simpson/launch_ws/build/ros_msg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_msg build --build-base /home/simpson/launch_ws/build/ros_msg/build install --record /home/simpson/launch_ws/build/ros_msg/install.log --single-version-externally-managed install_data
+[3.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/lauch_servo': PYTHONPATH=/home/simpson/launch_ws/build/lauch_servo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/lauch_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lauch_servo build --build-base /home/simpson/launch_ws/build/lauch_servo/build install --record /home/simpson/launch_ws/build/lauch_servo/install.log --install-scripts $base/lib/lauch_servo --single-version-externally-managed install_data
+[3.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/ros_wheel_controller': PYTHONPATH=/home/simpson/launch_ws/build/ros_wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_wheel_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_wheel_controller build --build-base /home/simpson/launch_ws/build/ros_wheel_controller/build install --record /home/simpson/launch_ws/build/ros_wheel_controller/install.log --install-scripts $base/lib/ros_wheel_controller --single-version-externally-managed install_data
+[3.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/launch_urdf': PYTHONPATH=/home/simpson/launch_ws/build/launch_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_urdf build --build-base /home/simpson/launch_ws/build/launch_urdf/build install --record /home/simpson/launch_ws/build/launch_urdf/install.log --install-scripts $base/lib/launch_urdf --single-version-externally-managed install_data
+[3.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/ros_good': PYTHONPATH=/home/simpson/launch_ws/build/ros_good/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_good build --build-base /home/simpson/launch_ws/build/ros_good/build install --record /home/simpson/launch_ws/build/ros_good/install.log --single-version-externally-managed install_data
+[3.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/launch_study' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/launch_study/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_study/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_study build --build-base /home/simpson/launch_ws/build/launch_study/build install --record /home/simpson/launch_ws/build/launch_study/install.log --install-scripts $base/lib/launch_study --single-version-externally-managed install_data
+[3.982s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_study' for CMake module files
+[3.985s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_study' for CMake config files
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_study/lib'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_study/bin'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_study/lib/pkgconfig/launch_study.pc'
+[3.987s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_study/lib/python3.8/site-packages'
+[3.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_study', 'pythonpath')
+[3.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_study/share/launch_study/hook/pythonpath.ps1'
+[3.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/launch_study/share/launch_study/hook/pythonpath.dsv'
+[3.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_study/share/launch_study/hook/pythonpath.sh'
+[3.992s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_study/bin'
+[3.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_study)
+[3.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_study/share/launch_study/package.ps1'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/launch_study/share/launch_study/package.dsv'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_study/share/launch_study/package.sh'
+[3.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_study/share/launch_study/package.bash'
+[4.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_study/share/launch_study/package.zsh'
+[4.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/launch_study/share/colcon-core/packages/launch_study)
+[4.009s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/simpson/launch_ws/src/wheel_controller' with build type 'ament_python'
+[4.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_controller', 'ament_prefix_path')
+[4.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/hook/ament_prefix_path.ps1'
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/hook/ament_prefix_path.dsv'
+[4.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/hook/ament_prefix_path.sh'
+[4.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.379s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/simpson/launch_ws/src/wheel_controller'
+[4.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.380s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.396s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_msg' for CMake module files
+[4.397s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_msg' for CMake config files
+[4.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/ros_msg' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/ros_msg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_msg build --build-base /home/simpson/launch_ws/build/ros_msg/build install --record /home/simpson/launch_ws/build/ros_msg/install.log --single-version-externally-managed install_data
+[4.400s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_msg/lib'
+[4.400s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_msg/bin'
+[4.400s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_msg/lib/pkgconfig/ros_msg.pc'
+[4.401s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_msg/lib/python3.8/site-packages'
+[4.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_msg', 'pythonpath')
+[4.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/hook/pythonpath.ps1'
+[4.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/hook/pythonpath.dsv'
+[4.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/hook/pythonpath.sh'
+[4.403s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_msg/bin'
+[4.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_msg)
+[4.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/package.ps1'
+[4.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/package.dsv'
+[4.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/package.sh'
+[4.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/package.bash'
+[4.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_msg/share/ros_msg/package.zsh'
+[4.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/ros_msg/share/colcon-core/packages/ros_msg)
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/jdamr_ros_03' for CMake module files
+[4.408s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/jdamr_ros_03' for CMake config files
+[4.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/jdamr_ros_03_1' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/jdamr_ros_03/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/jdamr_ros_03 build --build-base /home/simpson/launch_ws/build/jdamr_ros_03/build install --record /home/simpson/launch_ws/build/jdamr_ros_03/install.log --single-version-externally-managed install_data
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/jdamr_ros_03/lib'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/jdamr_ros_03/bin'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/jdamr_ros_03/lib/pkgconfig/jdamr_ros_03.pc'
+[4.409s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/jdamr_ros_03/lib/python3.8/site-packages'
+[4.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('jdamr_ros_03', 'pythonpath')
+[4.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/hook/pythonpath.ps1'
+[4.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/hook/pythonpath.dsv'
+[4.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/hook/pythonpath.sh'
+[4.411s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/jdamr_ros_03/bin'
+[4.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jdamr_ros_03)
+[4.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/package.ps1'
+[4.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/package.dsv'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/package.sh'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/package.bash'
+[4.413s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/jdamr_ros_03/share/jdamr_ros_03/package.zsh'
+[4.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/jdamr_ros_03/share/colcon-core/packages/jdamr_ros_03)
+[4.415s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_good' for CMake module files
+[4.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/ros_good' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/ros_good/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_good build --build-base /home/simpson/launch_ws/build/ros_good/build install --record /home/simpson/launch_ws/build/ros_good/install.log --single-version-externally-managed install_data
+[4.417s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_good' for CMake config files
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_good/lib'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_good/bin'
+[4.418s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_good/lib/pkgconfig/ros_good.pc'
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages'
+[4.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_good', 'pythonpath')
+[4.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_good/share/ros_good/hook/pythonpath.ps1'
+[4.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_good/share/ros_good/hook/pythonpath.dsv'
+[4.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_good/share/ros_good/hook/pythonpath.sh'
+[4.422s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_good/bin'
+[4.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_good)
+[4.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_good/share/ros_good/package.ps1'
+[4.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/ros_good/share/ros_good/package.dsv'
+[4.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_good/share/ros_good/package.sh'
+[4.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_good/share/ros_good/package.bash'
+[4.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_good/share/ros_good/package.zsh'
+[4.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/ros_good/share/colcon-core/packages/ros_good)
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/lauch_servo' for CMake module files
+[4.425s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/lauch_servo' for CMake config files
+[4.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/lauch_servo' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/lauch_servo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/lauch_servo/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lauch_servo build --build-base /home/simpson/launch_ws/build/lauch_servo/build install --record /home/simpson/launch_ws/build/lauch_servo/install.log --install-scripts $base/lib/lauch_servo --single-version-externally-managed install_data
+[4.426s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/lauch_servo/lib'
+[4.426s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/lauch_servo/bin'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/lauch_servo/lib/pkgconfig/lauch_servo.pc'
+[4.427s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/lauch_servo/lib/python3.8/site-packages'
+[4.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('lauch_servo', 'pythonpath')
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/hook/pythonpath.ps1'
+[4.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/hook/pythonpath.dsv'
+[4.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/hook/pythonpath.sh'
+[4.428s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/lauch_servo/bin'
+[4.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lauch_servo)
+[4.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/package.ps1'
+[4.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/package.dsv'
+[4.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/package.sh'
+[4.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/package.bash'
+[4.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/lauch_servo/share/lauch_servo/package.zsh'
+[4.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/lauch_servo/share/colcon-core/packages/lauch_servo)
+[4.431s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_ardu' for CMake module files
+[4.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/ros_ardu' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/ros_ardu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_ardu build --build-base /home/simpson/launch_ws/build/ros_ardu/build install --record /home/simpson/launch_ws/build/ros_ardu/install.log --single-version-externally-managed install_data
+[4.433s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_ardu' for CMake config files
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_ardu/lib'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_ardu/bin'
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_ardu/lib/pkgconfig/ros_ardu.pc'
+[4.436s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages'
+[4.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_ardu', 'pythonpath')
+[4.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/hook/pythonpath.ps1'
+[4.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/hook/pythonpath.dsv'
+[4.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/hook/pythonpath.sh'
+[4.440s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_ardu/bin'
+[4.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_ardu)
+[4.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/package.ps1'
+[4.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/package.dsv'
+[4.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/package.sh'
+[4.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/package.bash'
+[4.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_ardu/share/ros_ardu/package.zsh'
+[4.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/ros_ardu/share/colcon-core/packages/ros_ardu)
+[4.445s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_urdf' for CMake module files
+[4.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/launch_urdf' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/launch_urdf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/launch_urdf build --build-base /home/simpson/launch_ws/build/launch_urdf/build install --record /home/simpson/launch_ws/build/launch_urdf/install.log --install-scripts $base/lib/launch_urdf --single-version-externally-managed install_data
+[4.446s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_urdf' for CMake config files
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_urdf/lib'
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_urdf/bin'
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_urdf/lib/pkgconfig/launch_urdf.pc'
+[4.448s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages'
+[4.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_urdf', 'pythonpath')
+[4.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/hook/pythonpath.ps1'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/hook/pythonpath.dsv'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/hook/pythonpath.sh'
+[4.450s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/launch_urdf/bin'
+[4.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_urdf)
+[4.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/package.ps1'
+[4.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/package.dsv'
+[4.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/package.sh'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/package.bash'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/launch_urdf/share/launch_urdf/package.zsh'
+[4.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/launch_urdf/share/colcon-core/packages/launch_urdf)
+[4.457s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_wheel_controller' for CMake module files
+[4.458s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_wheel_controller' for CMake config files
+[4.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/ros_wheel_controller' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/ros_wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_wheel_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_wheel_controller build --build-base /home/simpson/launch_ws/build/ros_wheel_controller/build install --record /home/simpson/launch_ws/build/ros_wheel_controller/install.log --install-scripts $base/lib/ros_wheel_controller --single-version-externally-managed install_data
+[4.459s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_wheel_controller/lib'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_wheel_controller/bin'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_wheel_controller/lib/pkgconfig/ros_wheel_controller.pc'
+[4.460s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_wheel_controller/lib/python3.8/site-packages'
+[4.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_wheel_controller', 'pythonpath')
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/hook/pythonpath.ps1'
+[4.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/hook/pythonpath.dsv'
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/hook/pythonpath.sh'
+[4.461s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/ros_wheel_controller/bin'
+[4.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_wheel_controller)
+[4.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/package.ps1'
+[4.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/package.dsv'
+[4.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/package.sh'
+[4.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/package.bash'
+[4.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/ros_wheel_controller/share/ros_wheel_controller/package.zsh'
+[4.464s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/ros_wheel_controller/share/colcon-core/packages/ros_wheel_controller)
+[4.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/simpson/launch_ws/src/wheel_controller': PYTHONPATH=/home/simpson/launch_ws/build/wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_controller build --build-base /home/simpson/launch_ws/build/wheel_controller/build install --record /home/simpson/launch_ws/build/wheel_controller/install.log --install-scripts $base/lib/wheel_controller --single-version-externally-managed install_data
+[5.276s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/wheel_controller' for CMake module files
+[5.277s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/simpson/launch_ws/src/wheel_controller' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_controller build --build-base /home/simpson/launch_ws/build/wheel_controller/build install --record /home/simpson/launch_ws/build/wheel_controller/install.log --install-scripts $base/lib/wheel_controller --single-version-externally-managed install_data
+[5.278s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/wheel_controller' for CMake config files
+[5.278s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/wheel_controller/lib'
+[5.278s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/wheel_controller/bin'
+[5.279s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/wheel_controller/lib/pkgconfig/wheel_controller.pc'
+[5.279s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages'
+[5.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheel_controller', 'pythonpath')
+[5.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/hook/pythonpath.ps1'
+[5.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/hook/pythonpath.dsv'
+[5.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/hook/pythonpath.sh'
+[5.281s] Level 1:colcon.colcon_core.environment:checking '/home/simpson/launch_ws/install/wheel_controller/bin'
+[5.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheel_controller)
+[5.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/package.ps1'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/package.dsv'
+[5.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/package.sh'
+[5.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/package.bash'
+[5.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/package.zsh'
+[5.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/simpson/launch_ws/install/wheel_controller/share/colcon-core/packages/wheel_controller)
+[5.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.290s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.299s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.299s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.323s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.324s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpson/launch_ws/install/local_setup.ps1'
+[5.325s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simpson/launch_ws/install/_local_setup_util_ps1.py'
+[5.326s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpson/launch_ws/install/setup.ps1'
+[5.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpson/launch_ws/install/local_setup.sh'
+[5.327s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/simpson/launch_ws/install/_local_setup_util_sh.py'
+[5.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpson/launch_ws/install/setup.sh'
+[5.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpson/launch_ws/install/local_setup.bash'
+[5.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpson/launch_ws/install/setup.bash'
+[5.331s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/simpson/launch_ws/install/local_setup.zsh'
+[5.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/simpson/launch_ws/install/setup.zsh'

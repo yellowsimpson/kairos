@@ -1,0 +1,3 @@
+[console_scripts]
+launch_study = launch_study.launch_study:main
+

@@ -1,0 +1,41 @@
+[2.690s] Invoking command in '/home/simpson/launch_ws/src/ros_good': PYTHONPATH=/home/simpson/launch_ws/build/ros_good/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_good build --build-base /home/simpson/launch_ws/build/ros_good/build install --record /home/simpson/launch_ws/build/ros_good/install.log --single-version-externally-managed install_data
+[3.216s] running egg_info
+[3.217s] creating ../../build/ros_good/ros_good.egg-info
+[3.217s] writing ../../build/ros_good/ros_good.egg-info/PKG-INFO
+[3.218s] writing dependency_links to ../../build/ros_good/ros_good.egg-info/dependency_links.txt
+[3.218s] writing entry points to ../../build/ros_good/ros_good.egg-info/entry_points.txt
+[3.218s] writing requirements to ../../build/ros_good/ros_good.egg-info/requires.txt
+[3.219s] writing top-level names to ../../build/ros_good/ros_good.egg-info/top_level.txt
+[3.220s] writing manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+[3.220s] reading manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+[3.220s] writing manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+[3.220s] running build
+[3.221s] running build_py
+[3.222s] creating /home/simpson/launch_ws/build/ros_good/build
+[3.222s] creating /home/simpson/launch_ws/build/ros_good/build/lib
+[3.222s] creating /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+[3.223s] copying ros_good/__init__.py -> /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+[3.223s] copying ros_good/cam_ser.py -> /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+[3.223s] copying ros_good/cam_cli.py -> /home/simpson/launch_ws/build/ros_good/build/lib/ros_good
+[3.226s] running install
+[3.227s] running install_lib
+[3.228s] creating /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+[3.228s] copying /home/simpson/launch_ws/build/ros_good/build/lib/ros_good/__init__.py -> /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+[3.230s] copying /home/simpson/launch_ws/build/ros_good/build/lib/ros_good/cam_ser.py -> /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+[3.234s] copying /home/simpson/launch_ws/build/ros_good/build/lib/ros_good/cam_cli.py -> /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good
+[3.234s] byte-compiling /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good/__init__.py to __init__.cpython-38.pyc
+[3.234s] byte-compiling /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good/cam_ser.py to cam_ser.cpython-38.pyc
+[3.235s] byte-compiling /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good/cam_cli.py to cam_cli.cpython-38.pyc
+[3.235s] running install_data
+[3.235s] creating /home/simpson/launch_ws/install/ros_good/share/ament_index
+[3.236s] creating /home/simpson/launch_ws/install/ros_good/share/ament_index/resource_index
+[3.236s] creating /home/simpson/launch_ws/install/ros_good/share/ament_index/resource_index/packages
+[3.236s] copying resource/ros_good -> /home/simpson/launch_ws/install/ros_good/share/ament_index/resource_index/packages
+[3.237s] copying package.xml -> /home/simpson/launch_ws/install/ros_good/share/ros_good
+[3.237s] running install_egg_info
+[3.238s] Copying ../../build/ros_good/ros_good.egg-info to /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good-0.0.0-py3.8.egg-info
+[3.238s] running install_scripts
+[3.238s] Installing cam_cli script to /home/simpson/launch_ws/install/ros_good/lib/ros_good
+[3.238s] Installing cam_ser script to /home/simpson/launch_ws/install/ros_good/lib/ros_good
+[3.238s] writing list of installed files to '/home/simpson/launch_ws/build/ros_good/install.log'
+[3.321s] Invoked command in '/home/simpson/launch_ws/src/ros_good' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/ros_good/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_good build --build-base /home/simpson/launch_ws/build/ros_good/build install --record /home/simpson/launch_ws/build/ros_good/install.log --single-version-externally-managed install_data

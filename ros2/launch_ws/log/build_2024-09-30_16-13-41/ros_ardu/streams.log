@@ -1,0 +1,44 @@
+[2.643s] Invoking command in '/home/simpson/launch_ws/src/ros_ardu': PYTHONPATH=/home/simpson/launch_ws/build/ros_ardu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_ardu build --build-base /home/simpson/launch_ws/build/ros_ardu/build install --record /home/simpson/launch_ws/build/ros_ardu/install.log --single-version-externally-managed install_data
+[3.011s] running egg_info
+[3.012s] creating ../../build/ros_ardu/ros_ardu.egg-info
+[3.012s] writing ../../build/ros_ardu/ros_ardu.egg-info/PKG-INFO
+[3.012s] writing dependency_links to ../../build/ros_ardu/ros_ardu.egg-info/dependency_links.txt
+[3.013s] writing entry points to ../../build/ros_ardu/ros_ardu.egg-info/entry_points.txt
+[3.013s] writing requirements to ../../build/ros_ardu/ros_ardu.egg-info/requires.txt
+[3.013s] writing top-level names to ../../build/ros_ardu/ros_ardu.egg-info/top_level.txt
+[3.015s] writing manifest file '../../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'
+[3.079s] reading manifest file '../../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'
+[3.081s] writing manifest file '../../build/ros_ardu/ros_ardu.egg-info/SOURCES.txt'
+[3.081s] running build
+[3.081s] running build_py
+[3.081s] creating /home/simpson/launch_ws/build/ros_ardu/build
+[3.082s] creating /home/simpson/launch_ws/build/ros_ardu/build/lib
+[3.082s] creating /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu
+[3.082s] copying ros_ardu/__init__.py -> /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu
+[3.082s] copying ros_ardu/serial_check.py -> /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu
+[3.083s] copying ros_ardu/ardu_ser.py -> /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu
+[3.083s] copying ros_ardu/ardu_cli.py -> /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu
+[3.083s] running install
+[3.086s] running install_lib
+[3.087s] creating /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu
+[3.088s] copying /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu/__init__.py -> /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu
+[3.088s] copying /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu/serial_check.py -> /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu
+[3.088s] copying /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu/ardu_ser.py -> /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu
+[3.088s] copying /home/simpson/launch_ws/build/ros_ardu/build/lib/ros_ardu/ardu_cli.py -> /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu
+[3.100s] byte-compiling /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu/__init__.py to __init__.cpython-38.pyc
+[3.100s] byte-compiling /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu/serial_check.py to serial_check.cpython-38.pyc
+[3.101s] byte-compiling /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu/ardu_ser.py to ardu_ser.cpython-38.pyc
+[3.101s] byte-compiling /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu/ardu_cli.py to ardu_cli.cpython-38.pyc
+[3.101s] running install_data
+[3.101s] creating /home/simpson/launch_ws/install/ros_ardu/share/ament_index
+[3.101s] creating /home/simpson/launch_ws/install/ros_ardu/share/ament_index/resource_index
+[3.102s] creating /home/simpson/launch_ws/install/ros_ardu/share/ament_index/resource_index/packages
+[3.102s] copying resource/ros_ardu -> /home/simpson/launch_ws/install/ros_ardu/share/ament_index/resource_index/packages
+[3.102s] copying package.xml -> /home/simpson/launch_ws/install/ros_ardu/share/ros_ardu
+[3.102s] running install_egg_info
+[3.102s] Copying ../../build/ros_ardu/ros_ardu.egg-info to /home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages/ros_ardu-0.0.0-py3.8.egg-info
+[3.103s] running install_scripts
+[3.139s] Installing ardu_cli script to /home/simpson/launch_ws/install/ros_ardu/lib/ros_ardu
+[3.139s] Installing ardu_ser script to /home/simpson/launch_ws/install/ros_ardu/lib/ros_ardu
+[3.139s] writing list of installed files to '/home/simpson/launch_ws/build/ros_ardu/install.log'
+[3.292s] Invoked command in '/home/simpson/launch_ws/src/ros_ardu' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/ros_ardu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/ros_ardu/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros_ardu build --build-base /home/simpson/launch_ws/build/ros_ardu/build install --record /home/simpson/launch_ws/build/ros_ardu/install.log --single-version-externally-managed install_data

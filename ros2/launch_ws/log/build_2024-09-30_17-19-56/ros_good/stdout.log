@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/ros_good/ros_good.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_good/ros_good.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_good/ros_good.egg-info/entry_points.txt
+writing requirements to ../../build/ros_good/ros_good.egg-info/requires.txt
+writing top-level names to ../../build/ros_good/ros_good.egg-info/top_level.txt
+reading manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_good/ros_good.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/ros_good/ros_good.egg-info to /home/simpson/launch_ws/install/ros_good/lib/python3.8/site-packages/ros_good-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cam_cli script to /home/simpson/launch_ws/install/ros_good/lib/ros_good
+Installing cam_ser script to /home/simpson/launch_ws/install/ros_good/lib/ros_good
+writing list of installed files to '/home/simpson/launch_ws/build/ros_good/install.log'

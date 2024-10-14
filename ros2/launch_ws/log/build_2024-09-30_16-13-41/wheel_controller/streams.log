@@ -1,0 +1,39 @@
+[0.749s] Invoking command in '/home/simpson/launch_ws/src/wheel_controller': PYTHONPATH=/home/simpson/launch_ws/build/wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_controller build --build-base /home/simpson/launch_ws/build/wheel_controller/build install --record /home/simpson/launch_ws/build/wheel_controller/install.log --install-scripts $base/lib/wheel_controller --single-version-externally-managed install_data
+[0.926s] running egg_info
+[0.926s] creating ../../build/wheel_controller/wheel_controller.egg-info
+[0.927s] writing ../../build/wheel_controller/wheel_controller.egg-info/PKG-INFO
+[0.927s] writing dependency_links to ../../build/wheel_controller/wheel_controller.egg-info/dependency_links.txt
+[0.927s] writing entry points to ../../build/wheel_controller/wheel_controller.egg-info/entry_points.txt
+[0.927s] writing requirements to ../../build/wheel_controller/wheel_controller.egg-info/requires.txt
+[0.928s] writing top-level names to ../../build/wheel_controller/wheel_controller.egg-info/top_level.txt
+[0.929s] writing manifest file '../../build/wheel_controller/wheel_controller.egg-info/SOURCES.txt'
+[0.965s] reading manifest file '../../build/wheel_controller/wheel_controller.egg-info/SOURCES.txt'
+[0.966s] writing manifest file '../../build/wheel_controller/wheel_controller.egg-info/SOURCES.txt'
+[0.966s] running build
+[0.967s] running build_py
+[0.967s] creating /home/simpson/launch_ws/build/wheel_controller/build
+[0.967s] creating /home/simpson/launch_ws/build/wheel_controller/build/lib
+[0.967s] creating /home/simpson/launch_ws/build/wheel_controller/build/lib/wheel_controller
+[0.967s] copying wheel_controller/__init__.py -> /home/simpson/launch_ws/build/wheel_controller/build/lib/wheel_controller
+[0.967s] copying wheel_controller/wheel_controller.py -> /home/simpson/launch_ws/build/wheel_controller/build/lib/wheel_controller
+[0.967s] running install
+[0.968s] running install_lib
+[0.970s] creating /home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages/wheel_controller
+[0.970s] copying /home/simpson/launch_ws/build/wheel_controller/build/lib/wheel_controller/__init__.py -> /home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages/wheel_controller
+[0.970s] copying /home/simpson/launch_ws/build/wheel_controller/build/lib/wheel_controller/wheel_controller.py -> /home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages/wheel_controller
+[0.970s] byte-compiling /home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages/wheel_controller/__init__.py to __init__.cpython-38.pyc
+[0.972s] byte-compiling /home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages/wheel_controller/wheel_controller.py to wheel_controller.cpython-38.pyc
+[0.973s] running install_data
+[0.973s] creating /home/simpson/launch_ws/install/wheel_controller/share/ament_index
+[0.973s] creating /home/simpson/launch_ws/install/wheel_controller/share/ament_index/resource_index
+[0.973s] creating /home/simpson/launch_ws/install/wheel_controller/share/ament_index/resource_index/packages
+[0.974s] copying resource/wheel_controller -> /home/simpson/launch_ws/install/wheel_controller/share/ament_index/resource_index/packages
+[0.974s] copying package.xml -> /home/simpson/launch_ws/install/wheel_controller/share/wheel_controller
+[0.974s] creating /home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/launch
+[0.974s] copying launch/wheel_controller_launch.py -> /home/simpson/launch_ws/install/wheel_controller/share/wheel_controller/launch
+[0.974s] running install_egg_info
+[0.976s] Copying ../../build/wheel_controller/wheel_controller.egg-info to /home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages/wheel_controller-0.0.0-py3.8.egg-info
+[0.977s] running install_scripts
+[0.993s] Installing wheel_controller script to /home/simpson/launch_ws/install/wheel_controller/lib/wheel_controller
+[0.994s] writing list of installed files to '/home/simpson/launch_ws/build/wheel_controller/install.log'
+[1.013s] Invoked command in '/home/simpson/launch_ws/src/wheel_controller' returned '0': PYTHONPATH=/home/simpson/launch_ws/build/wheel_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/simpson/launch_ws/install/wheel_controller/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheel_controller build --build-base /home/simpson/launch_ws/build/wheel_controller/build install --record /home/simpson/launch_ws/build/wheel_controller/install.log --install-scripts $base/lib/wheel_controller --single-version-externally-managed install_data

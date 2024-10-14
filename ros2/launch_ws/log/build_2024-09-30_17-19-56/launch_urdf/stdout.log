@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/launch_urdf/launch_urdf.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_urdf/launch_urdf.egg-info/dependency_links.txt
+writing entry points to ../../build/launch_urdf/launch_urdf.egg-info/entry_points.txt
+writing requirements to ../../build/launch_urdf/launch_urdf.egg-info/requires.txt
+writing top-level names to ../../build/launch_urdf/launch_urdf.egg-info/top_level.txt
+reading manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_urdf/launch_urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/launch_urdf/launch_urdf.egg-info to /home/simpson/launch_ws/install/launch_urdf/lib/python3.8/site-packages/launch_urdf-0.0.0-py3.8.egg-info
+running install_scripts
+Installing launch script to /home/simpson/launch_ws/install/launch_urdf/lib/launch_urdf
+writing list of installed files to '/home/simpson/launch_ws/build/launch_urdf/install.log'

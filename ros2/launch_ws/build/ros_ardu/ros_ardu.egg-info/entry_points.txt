@@ -1,0 +1,4 @@
+[console_scripts]
+ardu_cli = ros_ardu.ardu_cli:main
+ardu_ser = ros_ardu.ardu_ser:main
+
