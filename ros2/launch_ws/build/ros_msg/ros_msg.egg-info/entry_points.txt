@@ -1,4 +1,0 @@
-[console_scripts]
-listener = ros_msg.sub:main
-talker = ros_msg.pub:main
-

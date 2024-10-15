@@ -1,4 +1,0 @@
-[console_scripts]
-cam_cli = ros_good.cam_cli:main
-cam_ser = ros_good.cam_ser:main
-

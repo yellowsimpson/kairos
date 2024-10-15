@@ -1,9 +1,0 @@
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/install/local.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/install.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/list_install_components.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/rebuild_cache.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/edit_cache.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/test.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/install/strip.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/turtlebot3_uninstall.dir
-/home/simpson/turtlebot3_ws/build/turtlebot3/CMakeFiles/uninstall.dir

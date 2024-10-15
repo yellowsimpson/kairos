@@ -1,3 +1,0 @@
-[console_scripts]
-servo = lauch_servo.lauch_servo:main
-

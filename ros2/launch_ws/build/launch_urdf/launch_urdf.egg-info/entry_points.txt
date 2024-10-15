@@ -1,3 +1,0 @@
-[console_scripts]
-launch = launch_urdf.urdf_launch:main
-

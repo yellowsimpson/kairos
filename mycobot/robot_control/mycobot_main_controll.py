@@ -8,7 +8,7 @@ class MyCobotControl(QWidget):
         super().__init__()
 
         # MyCobot 연결 설정
-        self.mc = MyCobot('COM5', 115200)
+        self.mc = MyCobot('COM6', 115200)
 
         # 기본 설정
         self.initUI()

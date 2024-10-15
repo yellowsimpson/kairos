@@ -1,3 +1,0 @@
-[console_scripts]
-jdamr_03 = jdamr_ros_03.jdamr_ros_03:main
-
