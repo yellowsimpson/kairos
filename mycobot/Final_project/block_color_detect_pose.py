@@ -171,6 +171,6 @@ def perform_action():
         time.sleep(3)
 
 # 4번 반복
-for i in range(2):
+for i in range(4):
     perform_action()
     print(f"{i+1}번째 작업 완료")
