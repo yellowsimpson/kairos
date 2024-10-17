@@ -167,6 +167,8 @@ def perform_action():
 
     else:
         # 색상이 탐지되지 않으면 초기 위치로 복귀
+        print("색상 인식 실패! 초기 위치로 돌아가며 그리퍼를 엽니다.")
+        mc.set_gripper_state(0, 20, 1)  # 그리퍼 열기
         mc.send_angles([0, 0, 0, 0, 0, 0], 20)
         time.sleep(3)
 
