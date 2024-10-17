@@ -24,8 +24,6 @@ time.sleep(1)
 mc.send_angle(2, 80, 20)
 time.sleep(3)
 
-
-
 # 카메라 초기화
 cap = cv2.VideoCapture(1)  # 1번 카메라 장치 사용
 

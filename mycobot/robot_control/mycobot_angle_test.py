@@ -1,7 +1,7 @@
 from pymycobot.mycobot import MyCobot
 import time
 
-mc = MyCobot('COM5',115200)
+mc = MyCobot('COM6',115200)
 mc.send_angle(1, 90, 20)
 time.sleep(3)
 mc.send_angle(5, -90, 20)

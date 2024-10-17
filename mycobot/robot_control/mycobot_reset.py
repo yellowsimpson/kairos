@@ -1,6 +1,6 @@
 from pymycobot.mycobot import MyCobot
 
-mc = MyCobot('COM5',115200)
+mc = MyCobot('COM6',115200)
 mc.set_gripper_mode(0)
 mc.init_gripper()
 mc.set_gripper_calibration()

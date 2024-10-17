@@ -11,7 +11,7 @@ class MyCobotController(QWidget):
         super().__init__()
 
         # MyCobot 연결 설정
-        self.mc = MyCobot('COM5', 115200)
+        self.mc = MyCobot('COM6', 115200)
 
         # 각 조인트의 각도 범위 설정
         self.joint_ranges = [

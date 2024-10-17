@@ -14,7 +14,7 @@ time.sleep(3)
 def perform_action(action):
     if action == 'a':
         print("A 동작 실행")
-        # A동작 코드
+        # A동작 코드 (파란색)
         mc.send_angles([0, 0, 0, 0, 0, 0], 20)
         time.sleep(1)
 
@@ -41,7 +41,7 @@ def perform_action(action):
 
     elif action == 'b':
         print("B 동작 실행")
-        # B동작 코드
+        # B동작 코드(노란색)
         mc.send_angles([0, 0, 0, 0, 0, 0], 20)
         time.sleep(1)
 
@@ -68,7 +68,7 @@ def perform_action(action):
 
     elif action == 'c':
         print("C 동작 실행")
-        # C동작 코드
+        # C동작 코드(초록색)
         mc.send_angles([0, 0, 0, 0, 0, 0], 20)
         time.sleep(1)
 
@@ -93,13 +93,40 @@ def perform_action(action):
         mc.send_angles([0,0,0,0,0,0],20)
         time.sleep(3)
 
+    elif action == 'd':
+        print("D 동작 실행")
+        # D동작 코드
+        mc.send_angles([0, 0, 0, 0, 0, 0], 20)
+        time.sleep(1)
+
+        mc.send_angles([72.07, 41.66, 69.02, -28.53, -83.93, -22.76], 20)
+        time.sleep(3)
+
+        mc.set_gripper_state(1,20,1)
+        time.sleep(1)
+
+        mc.send_angles([72.07, 20.66, 69.02, -28.53, -83.93, -22.76], 20)
+        time.sleep(1)
+
+        mc.send_angles([35, 20, 78, -34, -90, 42], 20)
+        time.sleep(3)
+
+        mc.send_angles([35, 42, 78, -34, -90, 42], 20)
+        time.sleep(3)
+
+        mc.set_gripper_state(0,20,1)
+        time.sleep(3)
+
+        mc.send_angles([0,0,0,0,0,0],20)
+        time.sleep(3)
+
     else:
-        print("잘못된 입력입니다. 'a', 'b', 'c' 중 하나를 입력하세요.")
+        print("잘못된 입력입니다. 'a', 'b', 'c', 'd' 중 하나를 입력하세요.")
 
 # 메인 루프
 while True:
-    action = input("실행할 동작을 선택하세요 (a, b, c) \n종료를 원하시면 'q'를 입력하세요.\n 실행 시킬 동작 :").lower()
-    if action in ['a', 'b', 'c']:
+    action = input("실행할 동작을 선택하세요 (a, b, c, d) \n종료를 원하시면 'q'를 입력하세요.\n 실행 시킬 동작 :").lower()
+    if action in ['a', 'b', 'c', 'd']:
         perform_action(action)
     else:
         if action == 'q':
