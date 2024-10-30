@@ -18,4 +18,4 @@ time.sleep(2)
 #그리퍼 범위설정해서 열고, 닫기
 # mc.set_gripper_value(100,40)
 # mc.set_gripper_value(그리퍼의 닫힘 범위 0 ~ 100에서 설정 , 모터 속도)
-# time.sleep(2)
+# time.sleep(2)0
