@@ -1,4 +1,12 @@
 import cv2
+import os
+
+# 저장 경로 설정
+save_path = "C:/Users/shims/Desktop/github/kairos/photo_1"
+
+# 폴더가 없으면 생성
+if not os.path.exists(save_path):
+    os.makedirs(save_path)
 
 # 외부 USB 카메라 열기 (인덱스 1 사용)
 cap = cv2.VideoCapture(1)
@@ -28,10 +36,13 @@ while True:
         break
     # 's' 키를 누르면 사진 저장
     elif key == ord('s'):
-        filename = f"C:\\Users\\shims\\Desktop\\github\\kairos\\photo\\photo_{photo_count}.jpg"
-        cv2.imwrite(filename, frame)
-        print(f"사진 저장: {filename}")
-        photo_count += 1
+        filename = os.path.join(save_path, f"photo_{photo_count}.jpg")
+        success = cv2.imwrite(filename, frame)
+        if success:
+            print(f"사진 저장: {filename}")
+            photo_count += 1
+        else:
+            print("사진을 저장할 수 없습니다.")
 
 # 카메라와 윈도우 해제
 cap.release()
