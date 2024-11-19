@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros_ardu_led</name>
+  <version>0.0.0</version>
+  <description>로봇 URDF를 RViz에서 시각화하고 teleop_twist_keyboard를 통해 바퀴를 움직이는 패키지입니다.</description>
+  <maintainer email="jhchoman@example.com">jhchoman</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 빌드 의존성 -->
+  <build_depend>rclpy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>joint_state_publisher_gui</build_depend>  <!-- 필요한 패키지만 남김 -->
+  
+  <!-- 실행 의존성 -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>pyserial</exec_depend>
+
+  <!-- 테스트 의존성 -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

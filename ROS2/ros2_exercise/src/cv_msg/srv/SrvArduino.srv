@@ -1,0 +1,4 @@
+string dir  # 방향 ('f' 또는 'r')
+int32 speed  # 속도 (0-255)
+---
+int32 answer  # 응답 (요청한 속도 값을 반환)
