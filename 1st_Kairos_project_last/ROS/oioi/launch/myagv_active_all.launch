@@ -1,0 +1,35 @@
+<launch>
+    <param name = "robot_description" textfile = "$(find oioi)/urdf/myagv/myAGV.urdf"/> 
+    <node name="joint_state_publisher_myagv" pkg="joint_state_publisher" type="joint_state_publisher" />
+    <node name="robot_state_publisher_myagv" pkg="robot_state_publisher" type="robot_state_publisher" />
+    
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_laser_link" args="0.065 0.0 0.08 3.14159265 0.0 0.0 /base_footprint /laser_frame 10" />
+    <node pkg="tf" type="static_transform_publisher" name="base_link_to_imu_link" args="-0.015 0.0 0.0 0.0 0.0 0.0 /base_footprint /imu_raw 10" /> 
+    <arg name="map_file" default="$(find myagv_navigation)/map/map_final.yaml"/>
+    <node name="map_server_for_test" pkg="map_server" type="map_server" args="$(arg map_file)" output="screen">
+	    <param name="frame_id" value="map"/></node>
+	    <arg name="use_map_topic" default="true"/>
+	    <arg name="scan_topic" default="scan"/>
+	    <node pkg="amcl" type="amcl" name="amcl" output="screen">
+	    <rosparam file="$(find myagv_navigation)/param/amcl.yaml" command="load" />
+	    <param name="initial_pose_x"            value="-0.4"/>
+	    <param name="initial_pose_y"            value="0.35"/>
+	    <param name="initial_pose_a"            value="0"/>
+    </node>      
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+	    <rosparam file="$(find myagv_navigation)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+	    <rosparam file="$(find myagv_navigation)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />
+	    <rosparam file="$(find myagv_navigation)/param/local_costmap_params.yaml" command="load" />
+	    <rosparam file="$(find myagv_navigation)/param/global_costmap_params.yaml" command="load" />
+	    <rosparam file="$(find myagv_navigation)/param/planner.yaml" command="load" />
+	    <param name="base_global_planner" value="global_planner/GlobalPlanner"/>
+	    <param name="planner_frequency" value="1.0"/>
+	    <param name="planner_patience" value="2.0"/>
+	    <param name="base_local_planner" value="base_local_planner/TrajectoryPlannerROS"/>
+	    <param name="controller_frequency" value="5.0"/> 
+	    <param name="controller_patience" value="3.0"/>
+	    <param name="clearing_rotation_allowed" value="true"/>
+    </node>
+	  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find myagv_navigation)/rviz/teb.rviz"/>
+	  <node name="sub_navi_coor" pkg="oioi" type="sub_navi_coor.py" output="screen"/>
+</launch>

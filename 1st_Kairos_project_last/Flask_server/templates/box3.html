@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box 3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <style>
+        .Rectangle3 {
+            width: 1200px;
+            height: 400px;
+            left: 40px;
+            top: 259px;
+            position: absolute;
+            background: url("{{ url_for('static', filename='moisture_graph.png') }}") no-repeat center;
+            background-size: contain; /* or cover depending on how you want the image to be scaled */
+        }
+    </style>
+    <script src="{{ url_for('static', filename='js/chart.min.js') }}"></script>
+</head>
+<body>
+    <div class="Frame8" style="width: 1280px; height: 720px; position: relative">
+        <div class="Frame5" style="width: 1280px; height: 720px; left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div class="Tv3" style="width: 1280px; height: 720px; position: relative; background: #B2945B">
+                <div class="Group2" style="width: 830px; height: 167px; left: 218px; top: 36px; position: absolute">
+                    <button onclick="location.href='{{ url_for('index') }}'" class="Rectangle1" style="width: 830px; height: 167px; left: 0px; top: 0px; position: absolute; background: #93C48B; border: none; cursor: pointer;">
+                        <div class="FarmerRobot" style="width: 775px; height: 125px; left: 36px; top: 21px; position: absolute; text-align: center; color: black; font-size: 96px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word">
+                            FARMER ROBOT
+                        </div>
+                    </button>
+                </div>
+                <div class="Rectangle3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

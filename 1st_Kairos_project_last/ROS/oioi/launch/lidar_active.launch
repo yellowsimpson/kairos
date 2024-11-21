@@ -1,0 +1,5 @@
+<launch>
+    <node name="my_lidar_node" pkg="oioi" type="my_lidar.py" output="screen"/>
+    <node pkg="myagv_odometry" type="myagv_odometry_node" name="myagv_odometry_node" output="screen" />
+    <include file="$(find ydlidar_ros_driver)/launch/X2.launch" />
+</launch>

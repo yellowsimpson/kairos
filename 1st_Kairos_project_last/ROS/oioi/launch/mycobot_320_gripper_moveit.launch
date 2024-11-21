@@ -1,0 +1,5 @@
+<launch>
+  <group ns='cobot'>
+    <include file="$(find mycobot_320_gripper_moveit)/launch/mycobot_320_gripper_moveit.launch" />
+  </group>
+</launch>
