@@ -16,7 +16,7 @@ if not cap.isOpened():
 
 # 이미지 촬영 및 저장
 num_images = 200
-interval = 0.5  # 초 단위
+interval = 0.5  # 초 단위s
 
 for i in range(num_images):
     # 프레임 캡처
