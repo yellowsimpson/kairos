@@ -10,17 +10,17 @@ void setup(){
 }
 
 void loop(){
-    analogWrite(RED, 255);    
-    analogWrite(GREEN, 0);
-    analogWrite(BLUE, 0);
-    delay(1000);
-    analogWrite(RED, 0);
-    analogWrite(GREEN, 255);
-    analogWrite(BLUE, 0);
-    delay(1000);
-    analogWrite(RED, 0);
-    analogWrite(GREEN, 0);
-    analogWrite(BLUE, 255);
+    analogWrite(RED, 255);    //빨간불 켜짐
+    analogWrite(GREEN, 0);    //초록불 꺼짐
+    analogWrite(BLUE, 0);     //파란불 꺼짐
+    delay(1000);              //1초 대기
+    analogWrite(RED, 0);      //빨간불 꺼짐
+    analogWrite(GREEN, 255);  //초록불 켜짐
+    analogWrite(BLUE, 0);     //파란불 꺼짐
+    delay(1000);              //1초 대기
+    analogWrite(RED, 0);     //빨간불 꺼짐
+    analogWrite(GREEN, 0);   //초록불 꺼짐
+    analogWrite(BLUE, 255);  //파란불 켜짐
     delay(1000);
     
 }
